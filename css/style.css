@@ -1,0 +1,223 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.boton{
+    text-decoration: none;
+    border: solid 1px #707070;
+    border-radius: 10px ;
+    color: #707070;
+    
+}
+.boton:hover{
+    text-decoration: none;
+    color: white;
+    background: #fc5252;
+}
+.boton2{
+    text-decoration: none;
+    border: solid 1px #707070;
+    border-radius: 3px ;
+    color: #707070;
+    
+}
+.boton2:hover{
+    text-decoration: none;
+    color: white;
+    background: #fc5252;
+}
+.boton{
+    text-decoration: none;
+    border: solid 1px #707070;
+    border-radius: 10px ;
+    color: #707070;
+    
+}
+.botonlogin{
+    text-decoration: none;
+    border: solid 1px #707070;
+    border-radius: 10px ;
+    color: white;
+    background: #fc5252;
+    
+}
+.botonlogin:hover{
+    text-decoration: none;
+    border: solid 1px #707070;
+    border-radius: 10px ;
+    color: white;
+    background: #fc5252;
+    
+}
+.boton3{
+    text-decoration: none;
+    border: solid 1px #fc5252;
+    border-radius: 3px ;
+    color: white;
+    background: #fc5252;
+    
+}
+.boton3:hover{
+    text-decoration: none;
+    border: solid 1px #fc5252;
+    border-radius: 3px ;
+    color: #fc5252;
+    background: white;
+
+    
+}
+.boton:hover{
+    text-decoration: none;
+    color: white;
+    background: #fc5252;
+}
+.botonfacebook{
+    text-decoration: none;
+    border: solid 1px #707070;
+    border-radius: 10px ;
+    color: #707070;
+    
+}
+.botonfacebook:hover{
+    text-decoration: none;
+    color: white;
+    background: #4072fa;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #707070;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color:rgb(112, 112, 112);
+}
+.active{
+    color:#020202 !important;
+}
+.active:hover{
+    color:#fc5252 !important;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #fc5252;
+}
+header{
+    border: solid 1px #e0dfdf;
+}
+.botones{
+    border-left: solid 1px #e0dfdf;
+    height: 90px;
+    padding-left: 50px;
+
+}
+.redd{
+    color: #f73e3e;
+}
+.red{
+    color: #f73e3e;
+}
+.red:hover{
+    color: #f73e3e;
+    cursor: pointer;
+}
+.numeracion a{
+    color: #707070;
+}
+.numeracion a:hover{
+    color: #fc5252;
+}
+.searchbar{
+    border-radius: 20px;
+}
+footer{
+    margin-bottom: -24px;
+}
+.galeria{
+    background-color: #fc5252;
+}
+.blog{
+    background-color: #fc5252;
+    width: 35%; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.borde{
+    border: solid 1px #e0dfdf;
+}
+.perfil{
+    height: 160px;
+}
+/*media queries */
+/* @media mediatype */
+/* device lg-grande */
+@media all and (min-width: 992px){
+    nav{
+        height: 100px !important;
+    }
+    .entradacard{
+        width: 80%;
+    }
+    .numeracion{
+        width: 80%;
+    } 
+}
+/* device md-medio */
+@media all and (min-width: 768px) and (max-width: 991px){
+    ul li a{
+        font-size: 15px;
+        padding: 0 !important;
+       
+    }
+    .botones{
+        font-size: 15px;
+        
+    }
+    .logo{
+        width: 150px;
+    }
+    nav{
+        height: 100px !important;
+    }
+    .pregunta{
+        text-align: center!important; 
+     }
+       
+
+}
+
+
+/* device sm-pequeño */
+@media all and (min-width: 322px) and (max-width: 767px){
+    .botones{
+        border-left: none;
+        height: 90px;
+        padding: 0px;
+        margin: 0px;
+    
+    }  
+    .logo{
+        width: 150px;
+    }
+    .entradacard{
+        width: 100%;
+    }
+    .numeracion{
+        width: 100%;
+    } 
+    .ads{
+        display: none;
+    }
+    .categoria{
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .blog{
+        background-color: #fc5252;
+        width: 80%; 
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .pregunta{
+        text-align: center!important; 
+     }
+       
+}
