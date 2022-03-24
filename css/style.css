@@ -1,9 +1,12 @@
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 .bg-french{
     background: #08adff;
 }
+
+
 .boton{
     text-decoration: none;
     border: solid 1px #707070;
@@ -136,7 +139,7 @@ footer{
     margin-bottom: -24px;
 }
 .galeria{
-    background-color: #08adff;
+    background-color: white
 }
 .blog{
     background-color: #08adff;
