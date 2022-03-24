@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.bg-french{
+    background: #08adff;
+}
 .boton{
     text-decoration: none;
     border: solid 1px #707070;
@@ -10,8 +13,8 @@ body{
 }
 .boton:hover{
     text-decoration: none;
-    color: white;
-    background: #fc5252;
+    color: #C5ECFC;
+    background: #08adff;
 }
 .boton2{
     text-decoration: none;
@@ -22,8 +25,8 @@ body{
 }
 .boton2:hover{
     text-decoration: none;
-    color: white;
-    background: #fc5252;
+    color: #C5ECFC;
+    background: #08adff;
 }
 .boton{
     text-decoration: none;
@@ -36,39 +39,39 @@ body{
     text-decoration: none;
     border: solid 1px #707070;
     border-radius: 10px ;
-    color: white;
-    background: #fc5252;
+    color: #C5ECFC;
+    background: #08adff;
     
 }
 .botonlogin:hover{
     text-decoration: none;
     border: solid 1px #707070;
     border-radius: 10px ;
-    color: white;
-    background: #fc5252;
+    color: #C5ECFC;
+    background: #08adff;
     
 }
 .boton3{
     text-decoration: none;
-    border: solid 1px #fc5252;
+    border: solid 1px #08adff;
     border-radius: 3px ;
-    color: white;
-    background: #fc5252;
+    color: #C5ECFC;
+    background: #08adff;
     
 }
 .boton3:hover{
     text-decoration: none;
-    border: solid 1px #fc5252;
+    border: solid 1px #08adff;
     border-radius: 3px ;
-    color: #fc5252;
-    background: white;
+    color: #08adff;
+    background: #C5ECFC;
 
     
 }
 .boton:hover{
     text-decoration: none;
-    color: white;
-    background: #fc5252;
+    color: #C5ECFC;
+    background: #08adff;
 }
 .botonfacebook{
     text-decoration: none;
@@ -79,7 +82,7 @@ body{
 }
 .botonfacebook:hover{
     text-decoration: none;
-    color: white;
+    color: #C5ECFC;
     background: #4072fa;
 }
 
@@ -88,17 +91,18 @@ body{
     color: #707070;
 }
 .navbar-custom .navbar-nav .nav-link {
-    color:rgb(112, 112, 112);
+   
+    color: white;
 }
 .active{
     color:#020202 !important;
 }
 .active:hover{
-    color:#fc5252 !important;
+    color:rgb(112, 112, 112);
 }
 
 .navbar-custom .nav-item:hover .nav-link {
-    color: #fc5252;
+    color:rgb(112, 112, 112);
 }
 header{
     border: solid 1px #e0dfdf;
@@ -123,7 +127,7 @@ header{
     color: #707070;
 }
 .numeracion a:hover{
-    color: #fc5252;
+    color: #08adff;
 }
 .searchbar{
     border-radius: 20px;
@@ -132,10 +136,10 @@ footer{
     margin-bottom: -24px;
 }
 .galeria{
-    background-color: #fc5252;
+    background-color: #08adff;
 }
 .blog{
-    background-color: #fc5252;
+    background-color: #08adff;
     width: 35%; 
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -211,7 +215,7 @@ footer{
         margin-bottom: 0 !important;
     }
     .blog{
-        background-color: #fc5252;
+        background-color: #08adff;
         width: 80%; 
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
